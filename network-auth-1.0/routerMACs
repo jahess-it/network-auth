@@ -1,0 +1,5 @@
+# This file contains hashes of router MAC addresses
+# These hashes are used to determine if your current network is authorized
+# Use the command add-network to add your current network to this list
+
+EOF

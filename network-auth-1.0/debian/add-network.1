@@ -1,0 +1,25 @@
+.TH add-network 1 2019-07-16
+.SH NAME
+add-network \- add current network to list of recognized networks
+.SH SYNOPSIS
+.B add-network
+[no options or arguments]
+.SH DESCRIPTION
+.B add-network
+takes neither options nor arguments.
+It finds the MAC address of the router and encrypts it.
+The resulting string stored in
+.B /etc/networkAuth/routerMACs
+where it can be compared against router MACs
+in the future for authentication with
+.B network-auth
+.SH FILES
+.B /etc/networkAuth/routerMACs
+.SH BUGS
+If you are not connected to a LAN,
+the code with throw an error and output it to
+.B /etc/networkAuth/routerMACs
+instead of an encrypted router MAC.
+(There isn't a router MAC if you're not connected to a LAN.)
+.SH AUTHORS
+James Hess <jahess.it@gmail.com>

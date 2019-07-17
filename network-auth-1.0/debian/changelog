@@ -1,0 +1,8 @@
+network-auth (1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release.
+  * This is my first Debian package.
+  * Fixed all lintian errors and warnings except
+  * new-package-should-close-itp-bug
+
+ -- James Hess <jahess.it@gmail.com>  Wed, 17 Jul 2019 14:25:00 -0700

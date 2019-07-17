@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo sed -i "s/EOF/$(arp -a | grep $(route | grep 'default' | awk '{ print $2 }') | awk '{ print $4 }' | sha512sum | sha224sum | sha384sum | sha1sum | sha256sum | awk '{ print $1 }')\nEOF/g" /etc/networkAuth/routerMACs

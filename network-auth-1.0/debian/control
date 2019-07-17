@@ -1,0 +1,16 @@
+Source: network-auth
+Section: x11
+Priority: important
+Maintainer: James Hess <jahess.it@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.4
+Homepage: https://github.com/jahess-it/network-auth
+
+Package: network-auth
+Architecture: all
+Depends: python (>= 2.7), libpam-python (>= 1.0.6-1), bash (>= 4.3), ${misc:Depends}
+Description: Authentication for familiar networks
+ This is a PAM Module written in Python that allows for authentication
+ when connected to a familiar network. It mimics Android's Smart Lock.
+ It is not intended for use as a sole authentication method
+ or as a required module with no backup method of authentication.

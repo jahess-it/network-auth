@@ -1,0 +1,3 @@
+add-network /usr/bin
+networkAuth.py /lib/security/networkAuth
+routerMACs /etc/networkAuth

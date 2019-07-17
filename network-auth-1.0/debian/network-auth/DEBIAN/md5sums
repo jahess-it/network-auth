@@ -1,0 +1,5 @@
+8a4a7dcc33f835715a51dfa0cd49e2bf  lib/security/networkAuth/networkAuth.py
+a8409260fd0c9ad0f55677698d8fa51f  usr/bin/add-network
+f6ea58af0afea94d2488db56666e6802  usr/share/doc/network-auth/changelog.Debian.gz
+a22b0d46df6225e1deb42e483a4ed47f  usr/share/doc/network-auth/copyright
+737ae701d901ba35c96d3a35bb3ced07  usr/share/man/man1/add-network.1.gz
